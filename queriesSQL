@@ -1,0 +1,5 @@
+//select site by user
+SELECT * FROM theme
+INNER JOIN site 
+on site theme.theme_id=site.theme_id
+WHERE site.user_id='1'
