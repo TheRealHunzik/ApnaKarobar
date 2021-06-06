@@ -1,0 +1,249 @@
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px; 
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+.center-line {
+    border-left: 1px solid black;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+.testFooter{
+    display: inline-flex;
+}
+.side-bar{
+   height: 100%;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 20px;
+   
+}
+.padding{
+    padding-top: 00px;
+    padding-bottom: 00px;
+}
+.list{
+    padding: 15px 10px;
+}
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid #f00;
+  }
+  /* sign up */
+
+  .pb-modalreglog-container
+  {
+      margin-top: 100px;
+  }
+
+  .pb-modalreglog-legend
+  {
+      text-align: center;
+  }
+
+  .pb-modalreglog-input-group
+  {
+      margin: auto;
+  }
+
+  .pb-modalreglog-submit
+  {
+      margin-left: 5px;
+  }
+
+  .pb-modalreglog-form-reg
+  {
+      text-align: center;
+  }
+
+  .pb-modalreglog-footer p
+  {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  #pb-modalreglog-progressbar
+  {
+      border-radius: 2px;
+  }
+
+ /* login modal */
+ .login-form {
+    width: 340px;
+    margin: 30px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.login-form .hint-text {
+    color: #777;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.login-btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+.or-seperator {
+    margin: 20px 0 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #f7f7f7;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}
+.social-btn .btn {
+    margin: 10px 0;
+    font-size: 15px;
+    text-align: left; 
+    line-height: 24px;       
+}
+.social-btn .btn i {
+    float: left;
+    margin: 4px 15px  0 5px;
+    min-width: 15px;
+}
+.input-group-addon .fa{
+    font-size: 18px;
+}
+
+/* css for recipt  */
+.text-danger strong {
+    color: #9f181c;
+}
+.receipt-main {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 12px solid #333333;
+    border-top: 12px solid #9f181c;
+    position: relative;
+    box-shadow: 0 1px 21px #acacac;
+    color: #333333;
+    font-family: open sans;
+}
+.receipt-main p {
+    color: #333333;
+    font-family: open sans;
+    line-height: 1.42857;
+}
+.receipt-footer h1 {
+    font-size: 15px;
+    font-weight: 400 !important;
+    margin: 0 !important;
+}
+.receipt-main::after {
+    background: #414143 none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -13px;
+}
+.receipt-main thead {
+    background: #414143 none repeat scroll 0 0;
+}
+.receipt-main thead th {
+    color:#fff;
+}
+.receipt-right h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 7px 0;
+}
+.receipt-right p {
+    font-size: 12px;
+    margin: 0px;
+}
+.receipt-right p i {
+    text-align: center;
+    width: 18px;
+}
+.receipt-main td {
+    padding: 9px 20px !important;
+}
+.receipt-main th {
+    padding: 13px 20px !important;
+}
+.receipt-main td {
+    font-size: 13px;
+    font-weight: initial !important;
+}
+.receipt-main td p:last-child {
+    margin: 0;
+    padding: 0;
+}	
+.receipt-main td h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+}
+.receipt-header-mid .receipt-left h1 {
+    font-weight: 100;
+    margin: 34px 0 0;
+    text-align: right;
+    text-transform: uppercase;
+}
+.receipt-header-mid {
+    margin: 24px 0;
+    overflow: hidden;
+}
+
+#container {
+    background-color: #dcdcdc;
+}

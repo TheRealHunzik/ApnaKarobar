@@ -1,0 +1,16 @@
+.details{
+	margin-top: 10px;
+	float: right;
+	font-size: 15px;
+}
+a {
+    color: white;
+
+}
+a:hover{
+	color: white;
+}
+.powered{
+	color: white;
+	text-align: center;
+}
